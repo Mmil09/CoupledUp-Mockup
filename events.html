@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coupled Up Events</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="css/syntax/shCore.css" rel="stylesheet" media="screen">
+    <link href="css/syntax/shThemeDefault.css" rel="stylesheet" media="screen">
+
+    <link href="css/theme.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/style.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/width-boxed.css" rel="stylesheet" media="screen" title="default">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+<style id="holderjs-style" type="text/css"></style></head>
+
+<body style="display: block;">
+
+    <!-- uncomment to animate entire page fade-in <div class="boxed animated fadeIn animation-delay-5"> -->
+
+    <div class="boxed" id="top"> <!-- page wrapper -->
+
+        <header id="header" class="hidden-xs">
+            <div class="container">
+                <div id="header-title">
+                    <a href="#"><img class="header-logo" src="img/CoupledUpLogo260.png" alt="Coupled Up Events">
+                </div>
+
+                <div id="social-header" class="hidden-xs">
+                    <a href="#" class="social-icon soc-twitter animated fadeInDown animation-delay-1"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-icon soc-google-plus animated fadeInDown animation-delay-2"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social-icon soc-facebook animated fadeInDown animation-delay-3"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-icon soc-instagram animated fadeInDown animation-delay-4"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="social-icon soc-pinterest animated fadeInDown animation-delay-5"><i class="fa fa-pinterest"></i></a>
+                    <a href="#" class="social-icon soc-linkedin animated fadeInDown animation-delay-6"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+                <div id="search-header" class="hidden-xs">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                    </div><!-- /input-group -->
+                </div>
+            </div> <!-- container -->
+        </header> <!-- header -->
+
+        <nav class="navbar navbar-static-top navbar-mind" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#"><img src="img/CoupledUpLogo130.png"></a>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-mind-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-inverse"></i>
+                    </button>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-mind-collapse">
+                    <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">By location</a></li>
+                                    <li><a href="#">By Activity</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact</a></li>
+                    </ul> <!-- nav nabvar-nav -->
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a>
+                            <div class="dropdown-menu dropdown-login animated fadeInUp">
+                                <form role="form">
+                                    <h4 class="section-title">Login </h4>
+         
+                                    <div class="form-group">
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                        <br>
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"> Remember me
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary pull-right">Login</button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>      
+                            </div>
+                        </li> <!-- dropdown -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">User name</a>
+                            <div class="dropdown-menu dropdown-profile animated fadeInUp">
+                                <img src="img/avatar.jpg" class="imageborder alignleft" alt="image"> 
+                                <h4>user@user.com</h4>
+                                <br/>
+                                <div class="btn-group">
+                                    <button class="btn btn-primary">Profile</button>
+                                    <button class="btn btn-primary">Logout</button>
+                                </div>
+
+                            </div>
+                        </li> <!-- dropdown -->
+                    </ul> <!-- nav nabvar-nav -->
+                </div><!-- navbar-collapse -->
+            </div> <!-- container -->
+        </nav> <!-- navbar navbar-default -->
+
+ <div class="container">
+    <h1>Events</h1>
+
+<div class="container"><!-- sort options & pagination -->
+    <div class="panel filter">
+    <div class="panel-heading panel-primary">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapseOne">
+          <btn class="btn btn-default">Filter Results</btn>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+
+      <div class="panel-body filter-body">
+        <div class="filter-close">
+            <a data-toggle="collapse" href="#collapseOne" class="pull-right"><i class="fa fa-times"></i></a>
+        </div>    
+        <div class="row">
+            <div class="col-xs-6">
+
+                <div class="col-sm-4">
+                     <span class="filter-label">Location</span>
+                    <ul class="filter-list">
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Boston, MA</label></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                     <span class="filter-label">Venue</span>
+                    <ul class="filter-list">
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Venue</label></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                     <span class="filter-label">Activity</span>
+                    <ul class="filter-list">
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Outdoors</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Artistic</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Food and Drink</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="col-sm-4">
+                    <span class="filter-label">Age Range</span>
+                    <ul class="filter-list">
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">18-22</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">23-28</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">28-34</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">35-44</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">45-55</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">56-65</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Doesn't Matter</label></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <span class="filter-label">Sexual Orientation</span>
+                    <ul class="filter-list">
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Straight</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Gay</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Lesbian</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">Doesn't Matter</label></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <span class="filter-label">Price Range</span>
+                    <ul class="filter-list">
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">$1-20</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">$21-40</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">$41-60</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">$61-80</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">$81-100</label></li>
+                        <li><input type="checkbox" class="filter-checkbox"><label for="">$100+</label></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!--end row -->
+        <div class="row">
+            <div class="col-xs-2 col-xs-offset-9 col-sm-offset-10">
+                <btn class="btn btn-default">Clear Filters</btn>
+            </div>
+        </div>
+      </div> <!-- end panel body -->
+    </div> <!-- end collapse -->
+  </div> <!--end panel -->
+  <div class="row">
+    <div class="col-xs-6">
+        Sort by: <select>
+            <option value="DateAscending">Earliest Date</option>
+            <option value="DateDescending">Latest Date</option>
+            <option value="priceLowToHigh">Lowest Price</option>
+            <option value="priceHightoLow">Highest Price</option>
+            <option value="TicketsRemainingLowToHigh">Tix Remaining, Lowest First</option>
+            <option value="TicketsRemainingHighToLow">Tix Remaining, Highest First</option>
+        </select>
+    </div>
+    <div class="col-xs-6">
+           
+        </div>
+    </div>
+</div>
+
+
+         
+        <section> <!-- results display -->  
+
+
+
+            <div class="row"> 
+                <div class="listing-container col-md-6"><!-- container for each event -->
+                    <div class="listing-container-inner"> <!-- listing-container-inner -->
+                        <div class="row"> <!-- row 1 -->
+                            <div class="col-xs-9">
+                                <a href=""><h2>Paint-nite at Johnny D's</h2></a>
+                                <h5>July 5th 2014, 8:00pm</h5>
+                            </div>
+                            <div class="col-xs-3">
+                                <btn class="btn btn-primary">Buy Tickets</btn>
+                                <p class="price"><i class="fa fa-usd"></i>55</p>
+                                <p class="remaining"><em> 5 Remaining</em></p>
+                            </div>
+
+                            
+                        </div> <!-- end row 1 -->
+                        <hr>
+                        <div class="row"> <!-- row 2 -->
+                            <div class="listing-details col-xs-4">
+                                <a href=""><img src="" class="listing-img"></a>
+                            </div>
+                            <div class="listing-details col-xs-8">
+                                
+                                <h4>Johnny D's Uptown Restaurant and Music Club</h4>
+                                <p>17 Holland St</p>
+                                <p>Somerville, MA 02144</p>
+                                <p>Address line 3</p>
+                                
+                            </div>
+                        </div> <!-- end row 2 -->
+                        <hr>
+                        <div class="row">   
+                            
+                                <div class="listing-details col-xs-4">
+                                    <h5>Age Range: </h5>23-28
+                                </div>
+                                 <div class="listing-details col-xs-4">
+                                    <h5>Sexual Orientation: </h5>Straight
+                                </div>
+                                 <div class="listing-details col-xs-4">
+                                    <h5>Activity: </h5>Artistic
+                                </div>
+                                
+                        </div>
+                        
+                        <div class="row"> <!-- row 3 -->
+                            <div class="listing-details col-sm-2 col-sm-offset-10 col-xs-2 col-xs-offset-10">
+                                <btn class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">More info</btn>
+                            </div>
+                        </div> <!-- end row 3 -->
+                    </div> <!--end listing-container-inner -->
+                </div> <!-- end listing container for each event -->
+
+                <div class="listing-container col-md-6"><!-- container for each event -->
+                    <div class="listing-container-inner"> <!-- listing-container-inner -->
+                        <div class="row"> <!-- row 1 -->
+                            <div class="col-xs-9">
+                                <a href=""><h2>Paint-nite at Johnny D's</h2></a>
+                                <h5>July 5th 2014, 8:00pm</h5>
+                            </div>
+                            <div class="col-xs-3">
+                                <btn class="btn btn-primary">Buy Tickets</btn>
+                                <p class="price"><i class="fa fa-usd"></i>55</p>
+                                <p class="remaining"><em> 5 Remaining</em></p>
+                            </div>
+
+                            
+                        </div> <!-- end row 1 -->
+                        <hr>
+                        <div class="row"> <!-- row 2 -->
+                            <div class="listing-details col-xs-4">
+                                <a href=""><img src="" class="listing-img"></a>
+                            </div>
+                            <div class="listing-details col-xs-8">
+                                
+                                <h4>Johnny D's Uptown Restaurant and Music Club</h4>
+                                <p>17 Holland St</p>
+                                <p>Somerville, MA 02144</p>
+                                <p>Address line 3</p>
+                                
+                            </div>
+                        </div> <!-- end row 2 -->
+                        <hr>
+                        <div class="row">   
+                            
+                                <div class="listing-details col-xs-4">
+                                    <h5>Age Range: </h5>23-28
+                                </div>
+                                 <div class="listing-details col-xs-4">
+                                    <h5>Sexual Orientation: </h5>Straight
+                                </div>
+                                 <div class="listing-details col-xs-4">
+                                    <h5>Activity: </h5>Artistic
+                                </div>
+                                
+                        </div>
+                        
+                        <div class="row"> <!-- row 3 -->
+                            <div class="listing-details col-sm-2 col-sm-offset-10 col-xs-2 col-xs-offset-10">
+                                <btn class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">More info</btn>
+                            </div>
+                        </div> <!-- end row 3 -->
+                    </div> <!--end listing-container-inner -->
+                </div> <!-- end listing container for each event -->               
+        </div> <!--end events listing -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h2 class="modal-title" id="myModalLabel">Event Title</h2>
+                <h5>Date, Time</h5>
+              </div>
+                  <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="" class="modal-img">
+                        </div>
+                    <div class="col-md-6 listing-details">
+                        <h4>Johnny D's Uptown Restaurant and Music Club</h4>
+                            <p>17 Holland St</p>
+                            <p>Somerville, MA 02144</p>
+                            <p>Address line 3</p>
+                            <iframe class="map-display" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?q=boston%20ma&key=AIzaSyDACDXbUjcyBTB1N1Elnuy6XZ9P-cecvTY"></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <br/>
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </p>
+                    
+                      </div>
+                  </div>
+                  <div class="row">   
+                        
+                            <div class="listing-details col-xs-4">
+                                <h5>Age Range: </h5>23-28
+                            </div>
+                             <div class="listing-details col-xs-4">
+                                <h5>Sexual Orientation: </h5>Straight
+                            </div>
+                             <div class="listing-details col-xs-4">
+                                <h5>Activity: </h5>Artistic
+                            </div>
+                            
+                    </div>
+                  <div class="modal-footer">
+                    <div class="row">
+                         <btn class="btn btn-primary">Buy Tickets</btn>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                    <div class="row">
+                         <p class="price"><i class="fa fa-usd"></i>55</p>
+                        <p class="remaining"><em> 5 Remaining</em></p>
+                    </div>
+                    </div> <!-- end modal footer -->
+                  </div> <!-- end modal body -->
+                </div> <!-- end modal content -->
+              </div> <!-- end modal dialog -->
+            </div> <!-- end modal -->
+
+            <ul class="pagination">
+              <li><a href="#">&laquo;</a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&raquo;</a></li>
+            </ul>
+        </section>
+    </div>
+    <aside id="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="footer-widget-title">Sitemap</h3>
+                        <ul class="list-unstyled three_cols">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#top">Back to Top</a>
+                        </ul>
+                        <h3 class="footer-widget-title">Subscribe</h3>
+                        <p>If you would like to be informed about Coupled Up news and events, please subscribe to our newsletter</p>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email Adress">
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" type="button">Subscribe</button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Upcoming Events</h3>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/m2.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor</a></h4>
+                                    <small>August 18, 2014</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="http://razonartificial.com/openmind/#"><img class="media-object" src="img/m11.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor</a></h4>
+                                    <small>September 14, 2014</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="http://razonartificial.com/openmind/#"><img class="media-object" src="img/m4.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Lorem ipsum Dolor cupidatat adipisicing et fugiat</a></h4>
+                                    <small>October 9, 2014</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Recent Events</h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf1.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf2.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf3.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a href="#" class="thumbnail"><img src="img/wf4.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </aside> <!-- footer-widgets -->
+
+        <footer id="footer">
+            <p>© 2014 <a href="#">Coupled Up</a>, inc. All rights reserved.</p>
+        </footer>
+
+    </div> <!-- boxed -->
+
+    <div id="back-top" style="display: none;">
+        <a href="http://razonartificial.com/openmind/#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/styleswitcher.js"></script>
+
+    <script src="js/shCore.js"></script>
+    <script src="js/shBrushXml.js"></script>
+    <script src="js/shBrushJScript.js"></script>
+
+    <script type="text/javascript">
+        SyntaxHighlighter.all()
+    </script>
