@@ -273,6 +273,10 @@ a.social-icon:hover {
 	height: 150px;
 }
 
+.modal-hover {
+	cursor: pointer;
+}
+
 .modal-img {
 	width: 375px;
 	height: 375px;
